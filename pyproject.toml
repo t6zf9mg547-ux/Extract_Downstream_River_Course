@@ -1,0 +1,11 @@
+[project]
+name = "extract-downstream-river-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "geopandas>=1.1.4",
+    "pandas>=3.0.3",
+    "shapely>=2.1.2",
+]
