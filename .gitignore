@@ -1,0 +1,61 @@
+# =============================================================================
+# Watershed Generator
+# =============================================================================
+
+# --- Virtual environment (uv) ------------------------------------------------
+.venv/
+venv/
+
+# --- Python cache ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# --- Jupyter Notebooks (if used) ---------------------------------------------
+.ipynb_checkpoints/
+
+# --- Excel temporary files ---------------------------------------------------
+~$*.xlsm
+~$*.xlsx
+~$*.xls
+
+# --- Data files --------------------------------------------------------------
+*.xlsm
+*.xlsx
+*.xls
+*.csv
+Data/
+
+# --- Output / generated files -------------------------------------------------
+Output/
+Plot/
+*.parquet
+*.gpkg
+*.gdb/
+
+# --- Environment variables (secrets, API keys, etc.) --------------------------
+.env
+.env.*
+
+# --- IDE and editor files ------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS generated files ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs and temporary files ----------------------------------------------------
+*.log
+*.tmp
+*.bak
+
+# --- uv specific --------------------------------------------------------------
+.python-version
